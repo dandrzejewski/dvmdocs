@@ -8,8 +8,8 @@ parts:
     chapters:
     - file: overview/introduction.md
     - file: overview/supported-hardware.md
-    - file: overview/system-configs.md
     - file: overview/getting-started.md
+    - file: overview/system-configs.md
   - caption: Software
     chapters:
     - file: software/dvmhost/index.md
