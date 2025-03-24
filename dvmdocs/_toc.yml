@@ -1,0 +1,34 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: DVMProject Overview
+    chapters:
+    - file: overview/introduction.md
+    - file: overview/supported-hardware.md
+    - file: overview/system-configs.md
+    - file: overview/getting-started.md
+  - caption: Software
+    chapters:
+    - file: software/dvmhost/index.md
+      sections:
+      - file: software/dvmhost/installation.md
+      - file: software/dvmhost/dvmhost.md
+      - file: software/dvmhost/dvmfne.md
+      - file: software/dvmhost/dvmbridge.md
+      - file: software/dvmhost/dvmcmd.md
+      - file: software/dvmhost/supplementary.md
+    - file: software/dvmfirmware/index.md
+      sections:
+      - file: software/dvmfirmware/dvmfirmware.md
+      - file: software/dvmfirmware/dvmfirmware-hs.md
+    - file: software/dvmconsole.md
+    - file: software/dvmprov.md
+  - caption: Hardware
+    chapters:
+    - file: hardware/index.md
+      sections:
+      - file: hardware/dvm-v1.md
+      - file: hardware/dvm-v24.md

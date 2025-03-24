@@ -1,0 +1,1 @@
+# DVM-V24 Motorola V.24 USB Adapter
