@@ -36,7 +36,6 @@ parts:
     chapters:
       - file: guides/hotspot/overview.md
         sections:
-          - file: guides/hotspot/overview.md
           - file: guides/hotspot/pi-config.md
           - file: guides/hotspot/flashing-modem.md
           - file: guides/hotspot/build-and-install-dvmhost.md
